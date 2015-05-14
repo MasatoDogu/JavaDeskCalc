@@ -38,12 +38,13 @@ public class Main {
             java.util.logging.Logger.getLogger(DeskCalcFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        int i = 0;
         /* Create and display the form */
         //frame作った時に出てきたのをコピー
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new DeskCalcFrame().setVisible(true);
+                
             }
         });
     }
